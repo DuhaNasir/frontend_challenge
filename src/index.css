@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* لتعريف الألوان (الوردي والأصفر) التي اتفقنا عليها وتخصيصها في Tailwind v4، نضيفها هنا: */
+@theme {
+  --color-primary-yellow: #fef08a;
+  --color-primary-pink: #ec4899;
+  --color-primary-pink-hover: #be185d;
+}
