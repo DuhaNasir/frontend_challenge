@@ -25,9 +25,7 @@ function App() {
                 </Link>
               </div>
 
-              <div className="text-3xl font-black text-primary-pink tracking-tight">
-                VOTE<span className="text-primary-yellow">APP</span>
-              </div>
+            
 
             </div>
           </div>
