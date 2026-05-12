@@ -1,6 +1,6 @@
 # 🌟 VOTEAPP
 
-🚀 **Live Demo:** [ضع رابط AWS هنا]
+🚀 **Live Demo:** http://voteapp-duha.s3-website.eu-north-1.amazonaws.com/
 
 ## 📂 هيكل المشروع (Project Structure)
 
