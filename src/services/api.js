@@ -16,6 +16,10 @@ export const api = {
     const response = await apiClient.get(`/polls/${id}`);
     return response.data;
   },
+  getAllPolls: async () => {
+    const response = await apiClient.get('/polls');
+    return response.data;
+  },
   vote: async (id, optionIndex) => {
     const response = await apiClient.post(`/polls/${id}/vote`, { optionIndex });
     return response.data;

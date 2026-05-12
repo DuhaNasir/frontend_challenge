@@ -10,8 +10,9 @@ const ResultsPage = () => {
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
 
-  const pollLink = `${window.location.origin}/vote/${id}`;
-
+  // 👈 التعديل هنا: إجبار الرابط على أن يكون http واسم الموقع بدون أي إضافات أخرى
+  const currentHost = window.location.host; 
+  const pollLink = `http://${currentHost}/vote/${id}`;
   useEffect(() => {
     const fetchResults = async () => {
       try {
